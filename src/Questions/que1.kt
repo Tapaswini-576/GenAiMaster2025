@@ -1,5 +1,0 @@
-package Questions
-
-fun main(){
-
-}
