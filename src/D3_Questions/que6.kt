@@ -1,10 +1,7 @@
 package D3_Questions
 
 fun main() {
-    print("Enter a day number (1-7): ")
-    val input = readLine()
-    val day = input?.toIntOrNull()
-
+    val day = 3
     when(day) {
         1 -> println("Try our Espresso!")
         2 -> println("How about a Latte?")
@@ -15,4 +12,5 @@ fun main() {
         7 -> println("Lazy Sunday with Mocha!")
         else -> println("Invalid day!")
     }
+
 }
