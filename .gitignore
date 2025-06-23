@@ -1,15 +1,54 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files (should not be committed to Git)
 local.properties
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/*.iml
+.idea/libraries/
+
+# Android Studio and IntelliJ Idea files
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+.build/
+.external-config/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android log files
+*.log
+
+# Android Debug Bridge (ADB)
+.adb/
+adbkey
+
+# Crashlytics or other crash reporting files
+com.crashlytics.tools.gradle.temp/
+
+# Other misc. generated files
+.navigation/
+
+# User-specific local build files
+/app/build/
